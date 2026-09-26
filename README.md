@@ -1,6 +1,5 @@
 # FitLog — Workout Library
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 A dark, no-nonsense gym companion built with Next.js. Browse a library of
 lifts, drill into full instructions and specs for each one, and build out
@@ -9,7 +8,7 @@ reloads.
 
 ## Technologies Used
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 | Technology | Purpose |
 |---|---|
@@ -21,7 +20,7 @@ reloads.
 
 ## 5 Key Features
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 1. **Workout library grid** — every lift from the API in a responsive 3×4
    grid on desktop, collapsing to 2 then 1 column on tablet/mobile, each card
@@ -46,7 +45,7 @@ reloads.
 
 ## ✅ Requirements Checklist
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 **Basic Requirements**
 - [x] Works on mobile, tablet, and desktop screen sizes
