@@ -1,50 +1,22 @@
-# FitLog — Workout Library
+**Project name:**
+FitLog — Workout Library
 
+**Short description:**
+FitLog is a dark, no-nonsense gym companion built with Next.js. Browse a library of lifts, drill into full instructions and specs for each one, and build out today's training plan — all state-driven, responsive, and persisted across reloads.
 
-A dark, no-nonsense gym companion built with Next.js. Browse a library of
-lifts, drill into full instructions and specs for each one, and build out
-today's training plan — all state-driven, responsive, and persisted across
-reloads.
+**Technologies used:**
+- Next.js (App Router) — UI and page navigation
+- React — component architecture and state management
+- Tailwind CSS — styling and responsive layout
+- lucide-react — icon set
+- localStorage — persists plan/saved data across reloads
 
-
-## Technologies Used
-
-
-
-| Technology | Purpose |
-|---|---|
-| **Next.js (App Router)** | Builds the UI and handles page navigation.
-| **React** | Component architecture and state management.
-| **Tailwind CSS** | Styling and full responsive layout.
-| **lucide-react** | Icon set used across buttons, badges, and stat rows .
-| **localStorage** | Persists the plan/saved lists across page reloads .
-
-
-## 5 Key Features
-
-
-
-1. **Workout library grid** — every lift from the API in a responsive 3×4
-   grid on desktop, collapsing to 2 then 1 column on tablet/mobile, each card
-   showing image, category tags, name, equipment, and a duration/calories/
-   rating stats row. Clicking a card opens its detail page.
-2. **Workout detail pages** — a two-column layout: a large image on the
-   left, and on the right a spec panel (equipment, difficulty, sets, reps,
-   duration, calories, rating) plus a numbered instructions list and
-   Add-to-plan / Save-for-later buttons with toast confirmations.
-3. **Today's Plan & Saved, with a 5-lift cap** — adding a workout updates the
-   navbar's Plan/Saved badge counts live; "Add to today's plan" disables
-   itself once the plan hits 5 lifts, matching the subtitle's stated cap.
-4. **My Plan dashboard** — a metrics row (Exercises/Minutes/Calories) that
-   reflects whichever tab is active, tabs for Today's Plan vs. Saved with a
-   "Loading workouts…" state, and per-item Mark as Done / Remove (X) actions,
-   each with its own toast.
-5. **Sort, search, and resilient state** — a "Sort By" dropdown (Duration /
-   Calories / Rating, default Duration, chevron icon) re-sorts the current
-   list on both the Library and My Plan pages; a search box filters by name
-   or tag; and the plan/saved lists persist through `localStorage`, so a
-   reload never loses your data or breaks the page (custom 404 included).
-
+**5 key features of the project:**
+1. Responsive workout library grid (3×4 on desktop) with category tags, equipment, and duration/calories/rating stats on every card
+2. Two-column workout detail pages with a full specs panel and numbered step-by-step instructions
+3. Add to today's plan / Save for later, with live navbar badge counts, toast notifications, and a 5-lift cap
+4. My Plan dashboard with live metrics (Exercises/Minutes/Calories), Today's Plan vs. Saved tabs, and Mark as Done / Remove actions
+5. Sort by Duration/Calories/Rating, search by name or tag, and localStorage persistence so nothing is lost on reload
 
 ##  Requirements Checklist
 
