@@ -6,6 +6,7 @@ lifts, drill into full instructions and specs for each one, and build out
 today's training plan — all state-driven, responsive, and persisted across
 reloads.
 
+
 ## Technologies Used
 
 
@@ -17,6 +18,7 @@ reloads.
 | **Tailwind CSS** | Styling and full responsive layout.
 | **lucide-react** | Icon set used across buttons, badges, and stat rows .
 | **localStorage** | Persists the plan/saved lists across page reloads .
+
 
 ## 5 Key Features
 
@@ -43,7 +45,8 @@ reloads.
    or tag; and the plan/saved lists persist through `localStorage`, so a
    reload never loses your data or breaks the page (custom 404 included).
 
-## ✅ Requirements Checklist
+
+##  Requirements Checklist
 
 
 
