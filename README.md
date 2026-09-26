@@ -11,7 +11,7 @@ FitLog is a dark, no-nonsense gym companion built with Next.js. Browse a library
 - lucide-react — icon set
 - localStorage — persists plan/saved data across reloads
 
-**5 key features of the project:**
+##  **5 key features of the project:**
 1. Responsive workout library grid (3×4 on desktop) with category tags, equipment, and duration/calories/rating stats on every card
 2. Two-column workout detail pages with a full specs panel and numbered step-by-step instructions
 3. Add to today's plan / Save for later, with live navbar badge counts, toast notifications, and a 5-lift cap
