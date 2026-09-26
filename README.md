@@ -71,4 +71,3 @@ FitLog is a dark, no-nonsense gym companion built with Next.js. Browse a library
 - [x] **Search** — My Plan and Library entries filterable by name or tag
 - [x] **5-lift cap** — "Add to today's plan" disables once the plan has 5
       lifts, matching the "Cap of five lifts for today" subtitle
-
