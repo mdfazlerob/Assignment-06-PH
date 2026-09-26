@@ -15,7 +15,7 @@ export default function Hero() {
             Log every set.
           </h1>
           <p className="mt-5 max-w-md text-sm leading-relaxed text-lg
- text-white md: text-base">
+ text-white md:text-base">
             FitLog is a dark, no-nonsense gym companion: pick a lift, lock it
             into today&apos;s plan, and watch the week&apos;s work add up.
           </p>
