@@ -16,7 +16,13 @@ FitLog is a dark, no-nonsense gym companion built with Next.js. Browse a library
 2. Two-column workout detail pages with a full specs panel and numbered step-by-step instructions
 3. Add to today's plan / Save for later, with live navbar badge counts, toast notifications, and a 5-lift cap
 4. My Plan dashboard with live metrics (Exercises/Minutes/Calories), Today's Plan vs. Saved tabs, and Mark as Done / Remove actions
-5. Sort by Duration/Calories/Rating, search by name or tag, and localStorage persistence so nothing is lost on reload
+5. Sort by Duration/Calories/Rating, search by name or tag, and localStorage persistence so nothing is lost on reload.
+
+
+Live Site Link:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+https://fit-log-ph-6.netlify.app/
 
 ##  Requirements Checklist
 
